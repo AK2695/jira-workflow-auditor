@@ -19,6 +19,7 @@ Ideal for **Jira Administrators**, **Governance Teams**, and **Audit Compliance*
   - Detailed changed values (from → to)
 - Automatically assigns the issue to the change author (if assignable)
 
----
-git clone https://github.com/your-username/jira-workflow-auditor.git
-cd jira-workflow-auditor
+## How it Looks
+
+<img width="780" height="302" alt="Workflow Auditor Demo" src="https://github.com/user-attachments/assets/82b5ae52-46e8-4f3f-9e6c-063b3857b75f" />
+
