@@ -23,3 +23,14 @@ Ideal for **Jira Administrators**, **Governance Teams**, and **Audit Compliance*
 
 <img width="780" height="302" alt="Workflow Auditor Demo" src="https://github.com/user-attachments/assets/82b5ae52-46e8-4f3f-9e6c-063b3857b75f" />
 
+## Disclaimer
+
+> ⚠️ **This Forge app is provided for educational and demonstration purposes only.**
+>
+> If you plan to use this in a production environment, **please consult your development and security teams** to review the code for:
+>
+> - Compliance with your organization’s security policies
+> - Proper audit logging and governance
+> - Any additional performance or permission requirements
+>
+> The author is not responsible for any misuse, security vulnerabilities, or violations resulting from the deployment of this code.
