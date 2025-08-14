@@ -4,6 +4,8 @@ This Forge app automatically monitors **workflow changes in Jira Cloud** by scan
 
 Ideal for **Jira Administrators**, **Governance Teams**, and **Audit Compliance** use cases.
 
+If just getting started with forge, please go through: https://developer.atlassian.com/platform/forge/getting-started/
+
 ---
 
 ## Features
