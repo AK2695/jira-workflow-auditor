@@ -1,0 +1,22 @@
+modules:
+  scheduledTrigger:
+    - key: workflow-scan-trigger
+      function: main
+      interval: fiveMinute
+  function:
+    - key: main
+      handler: index.run
+
+permissions:
+  scopes:
+    - read:audit-log:jira
+    - read:jira-work
+    - write:jira-work
+    - manage:jira-configuration
+    - storage:app
+    - read:jira-user
+
+app:
+  runtime:
+    name: nodejs22.x
+  id: ari:cloud:ecosystem::app/235c1346-315f-4277-a08b-88873057bc0a
