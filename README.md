@@ -18,12 +18,16 @@ If just getting started with forge, please go through: https://developer.atlassi
   - Author who made the change
   - Timestamp
   - Change summary
-  - Detailed changed values (from → to)
+
 - Automatically assigns the issue to the change author (if assignable)
+
+---
 
 ## How it Looks
 
 <img width="780" height="302" alt="Workflow Auditor Demo" src="https://github.com/user-attachments/assets/82b5ae52-46e8-4f3f-9e6c-063b3857b75f" />
+
+---
 
 ## Disclaimer
 
