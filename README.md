@@ -1,38 +1,24 @@
-# Forge Hello World
+# Jira Workflow Auditor – Forge App
 
-This project contains a Forge app written in Javascript that logs `Hello world!` via a scheduled trigger every hour. 
+This Forge app automatically monitors **workflow changes in Jira Cloud** by scanning the [Audit Log](https://support.atlassian.com/jira-cloud-administration/docs/view-jira-audit-logs/). When a change is detected, it **creates a Jira issue** in your specified project with all the relevant details.
 
-See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials
-explaining Forge.
+Ideal for **Jira Administrators**, **Governance Teams**, and **Audit Compliance** use cases.
 
-## Requirements
+---
 
-See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/) for instructions to get set up.
+## Features
 
-## Quick start
+- Scheduled to run **every 5 minutes** using Forge Scheduled Triggers
+- Fetches audit logs and filters only **workflow-related changes**
+- Automatically **creates a new issue** when a workflow is updated
+- Issue contains:
+  - Workflow name
+  - Author who made the change
+  - Timestamp
+  - Change summary
+  - Detailed changed values (from → to)
+- Automatically assigns the issue to the change author (if assignable)
 
-- Modify your app by editing the `src/index.jsx` file.
-
-- Build and deploy your app by running:
-```
-forge deploy
-```
-
-- Install your app in an Atlassian site by running:
-```
-forge install
-```
-
-- Develop your app by running `forge tunnel` to proxy invocations locally:
-```
-forge tunnel
-```
-
-### Notes
-- Use the `forge deploy` command when you want to persist code changes.
-- Use the `forge install` command when you want to install the app on a new site.
-- Once the app is installed on a site, the site picks up the new app changes you deploy without needing to rerun the install command.
-
-## Support
-
-See [Get help](https://developer.atlassian.com/platform/forge/get-help/) for how to get help and provide feedback.
+---
+git clone https://github.com/your-username/jira-workflow-auditor.git
+cd jira-workflow-auditor
